@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+{% from "macros/pagination.html" import render_pagination %}
+{% block body %}
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active banner">
+          <img class="first-slide" src="https://i.imgur.com/PU990CR.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption d-md-block text-left">
+              <h1 style="font-size: 70px">松 韻 獎</h1>
+              <p>歷 屆 得 獎 作 品 。</p>
+              <p style="font-size :10px ;">Photo by Patrick Tomasso on Unsplash</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+  <div class="container marketing fontface">
+      <div class="row">
+        <!--一學年度-->
+        {% for post in this.pagination.items %}
+        <div class="col-lg-4">
+          <a href="{{ post|url }}" class="black_a">
+            <h1>{{ post.year }}學年度</h1>
+            <div><p>新詩/散文/小說</p>{{ post.info }}</div>
+          </a>
+        </div>
+        {% endfor %}
+      </div><!-- /row -->
+      
+    </div><!-- /container marketing -->
+{% endblock %}
+{% if this.pagination.pages > 1 %}
+    {{ render_pagination(this.pagination) }}
+  {% endif %}

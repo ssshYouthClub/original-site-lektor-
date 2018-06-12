@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+{% block body %}
+<div class="container marketing fontface">
+    <div class="row justify-content-center">
+      <!--標題-->
+      <div class="col-12 col-lg-9">
+       <br><small class="text-muted">首頁/雜筆</small><br><time>發布日期：{% block date %}{{ this.date }}{% endblock %}</time><br>
+      </div>
+    </div> 
+
+    <div class="container col-12 col-lg-9 article">
+      <br><br><h3 style="text-align: center; font-weight:bold;">{% block title %}{{ this.title1 }}{% endblock %}<br>{% block title2 %}{{ this.title2 }}{% endblock %}</h3><br><br>
+      <div class="col-12 col-lg-12">{% for image in this.attachments.images %}<img src="{{ image|url }}" class="img-fluid">{% endfor %}</div>
+      <div style="padding:20px">
+        {% block content %}
+          {{ this.content }}
+        {% endblock %}
+      </div>
+    </div>
+    <br>
+   </div>
+{% endblock %}
+<!--<p class="meta">
+    by {{ this.author }}
+    on {{ this.pub_date|dateformat('full') }}
+  <div class="body">{{ this.body }}</div>-->

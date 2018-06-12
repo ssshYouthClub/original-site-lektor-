@@ -1,0 +1,37 @@
+{% extends "layout.html" %}
+{% block body %}
+	<div class="container marketing fontface">
+	<!-- info -->
+		</br></br>
+      	<hr color="gray" size="10">
+      	<div class="row">
+        	<div class="col-md-6 col-4"><h3 align="left">{% block group_c %}{{ this.group_c }}{% endblock %}</h3></div>
+        	<div class="col-md-6 col-12"><h1 align="right">{% block title %}{{ this.title }}{% endblock %}-{% block author %}{{ this.author }}{% endblock %}</h1></div>
+      	</div><!-- /.row -->
+      	<div class="row">
+        	<div class="col-md-6 col-6"><p align="left" class="text-muted">{% block group_e %}{{ this.group_e }}{% endblock %} /{% block grade %}{{ this.grade }}{% endblock %}</p></div>
+        	<div class="col-md-6 col-6"><p align="right" class="text-muted">{% block year %}{{ this.year }}{% endblock %}學年</p></div>
+      	</div><!-- /.row -->
+      	<hr color="gray" size="10">
+    <!-- introduction -->
+    	<div class="row">
+    		<div class="col-lg-6 writing">
+    			<h3>自我介紹</h3>
+    			<p>{% block self_introduction %}{{ this.self_introduction }}{% endblock %}</p>
+    		</div>
+    		<div class="col-lg-6">
+    			<h3>得獎感言</h3>
+    			<p>{% block acceptance_speech %}{{ this.acceptance_speech }}{% endblock %}</p>
+    		</div>
+    	</div><!-- /.row -->
+    	<hr class="featurette-divider">
+    <!-- content -->
+    	<div class="row">
+    		<div class="col-lg-12" align="center">
+    			<h1>{{ self.title() }}</h1>
+    			{% block content %}{{ this.content }}{% endblock %}
+    		</div>
+    	</div><!-- /.row -->
+      <hr color="gray" size="10">
+	</div><!-- /.container -->
+{% endblock %}

@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+{% block body %}
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="first-slide" src="https://i.imgur.com/CfRhjtz.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption d-md-block">
+              <h1 style="font-size: 70px">松   韻   獎</h1>
+              <p>{{ this.year }}   學   年   度   得   獎   作   品   。</p>
+              <p style="font-size :10px ;">Photo by Roman Trifonov on Unsplash</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<div class="container fontface ">
+{% block content %}
+{{ this.content }}
+{% endblock %}
+</div>
+{% endblock %}

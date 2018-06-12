@@ -1,0 +1,82 @@
+_model:award-list-old
+---
+year:106
+---
+content:
+      <div class="row">
+        <!--新詩-->
+        <div class="col-md-4 flex-first" style="margin-bottom: 20px">
+          <h1 class="mark_sign" style="border-color:rgb(118,217,185);">新詩</h1><h3 class="text-muted">Poem</h3>
+
+          <div class="col-md-12 rounded" align="center" style="background-color:rgba(100%,100%,100%,0.7);">
+            <a href="https://ssshyouthclub.github.io/awards/106/30309/" class="black_a">
+                </br><h2>《關於生活中的那些苦難》</h2><h4 style="color: gray;">30309 易映妤</h4><p style="color: gray;">新詩/特優</p></br>
+            </a>
+          </div><!-- /.col-md-12 -->
+          </br>
+          <div class="col-md-12 rounded" align="center" style="background-color:rgba(100%,100%,100%,0.7);">
+            <a href="https://ssshyouthclub.github.io/awards/106/10909/" class="black_a">
+              </br><h2>《勝佛，佛勝》</h2><h4 style="color: gray;">10909 柯筑弋</h4><p style="color: gray;">新詩/優等</p></br>
+            </a>
+          </div><!-- /.col-md-12 -->
+          </br>
+          <div class="col-md-12 rounded" align="center" style="background-color:rgba(100%,100%,100%,0.7);">
+            <a href="https://ssshyouthclub.github.io/awards/106/20507/" class="black_a">
+              </br><h2>《一代人與鳥·北方的夢》</h2><h4 style="color: gray;">20507 邱榆婷</h4><p style="color: gray;">新詩/佳作</p></br>
+            </a>
+          </div><!-- /.col-md-12 -->
+        </div><!-- /.col-md-4 flex-first-->
+
+        <!--散文-->
+        <div class="col-md-4 flex-unordered" style="margin-bottom: 20px">
+          <h1 class="mark_sign" style="border-color:rgb(21,171,137);">散文</h1><h3 class="text-muted">Article</h3>
+
+          <div class="col-md-12 rounded" align="center" style="background-color:rgba(100%,100%,100%,0.7);">
+            <a href="https://ssshyouthclub.github.io/awards/106/11222/" class="black_a">
+              </br><h2>《天堂遊記》</h2><h4 style="color: gray;">11222 周威廷</h4><p style="color: gray;">散文/優等</p></br>
+            </a>
+          </div><!-- /.col-md-12 -->
+          </br>
+          <div class="col-md-12 rounded" align="center" style="background-color:rgba(100%,100%,100%,0.7);">
+            <a href="https://ssshyouthclub.github.io/awards/106/21127/" class="black_a">
+              </br><h2>《彼端》</h2><h4 style="color: gray;">21127 黃子晉</h4><p style="color: gray;">散文/優等</p></br>
+            </a>
+          </div><!-- /.col-md-12 -->
+          </br> 
+          <div class="col-md-12 rounded" align="center" style="background-color:rgba(100%,100%,100%,0.7);">
+            <a href="https://ssshyouthclub.github.io/awards/106/10307/" class="black_a">
+              </br><h2>《巷》</h2><h4 style="color: gray;">10307 林均蓉</h4><p style="color: gray;">散文/佳作</p></br>
+            </a>
+          </div><!-- /.col-md-4-->
+          <br>
+          <div class="col-md-12 rounded" align="center" style="background-color:rgba(100%,100%,100%,0.7);">
+            <a href="https://ssshyouthclub.github.io/awards/106/11109/" class="black_a">
+              </br><h2>《冬》</h2><h4 style="color: gray;">11109 唐嘉妤</h4><p style="color: gray;">散文/佳作</p></br>
+            </a>
+          </div><!-- /.col-md-12 -->
+        </div><!-- /.col-md-4 flex-unordered-->
+
+        <!--小說-->
+        <div class="col-md-4 flex-last" style="margin-bottom: 20px">
+          <h1 class="mark_sign" style="border-color:rgb(9,115,106);">小說</h1><h3 class="text-muted">Novel</h3>
+
+          <div class="col-md-12 rounded" align="center" style="background-color:rgba(100%,100%,100%,0.7);">
+            <a href="https://ssshyouthclub.github.io/awards/106/20507n/" class="black_a">
+              </br><h2>《左手書寫》</h2><h4 style="color: gray;">20507 邱榆婷</h4><p style="color: gray;">小說/優等</p></br>
+            </a>
+          </div><!-- /.col-md-12 -->
+          </br>
+          <div class="col-md-12 rounded" align="center" style="background-color:rgba(100%,100%,100%,0.7);">
+            <a href="https://ssshyouthclub.github.io/awards/106/20532/" class="black_a">
+              </br><h2>《愚者之戀》</h2><h4 style="color: gray;">20532 柯冠旭</h4><p style="color: gray;">小說/優等</p></br>
+            </a>
+          </div><!-- /.col-md-12 -->
+          <br>
+          <div class="col-md-12 rounded" align="center" style="background-color:rgba(100%,100%,100%,0.7);">
+            <a href="https://ssshyouthclub.github.io/awards/106/20728/" class="black_a">
+              </br><h2>《我們之間，隔了一個青春》</h2><h4 style="color: gray;">20728 徐嘉佑</h4><p style="color: gray;">小說/優等</p></br>
+            </a>
+          </div><!-- /.col-md-12 -->
+        </div><!-- /.col-md-4 flex-last -->
+
+      </div><!-- /.row -->
